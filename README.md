@@ -16,7 +16,7 @@ O projeto "Image-Describer" é uma API FastAPI que aceita uma imagem e um prompt
 1. Clone o repositório:
 
    ```
-   git clone https://github.com/seu_usuario/image-describer.git
+   git clone https://github.com/alvarogomes/image-describer.git
    ```
 
 2. Navegue até o diretório do projeto:
