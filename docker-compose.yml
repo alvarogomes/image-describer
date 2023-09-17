@@ -1,0 +1,20 @@
+version: '3.7'
+services:
+  web:
+    build: .
+    ports:
+      - "8000:8000"
+
+  minio:
+    image: minio/minio
+    volumes:
+      - minio-data:/data
+    environment:
+      MINIO_ACCESS_KEY: minio
+      MINIO_SECRET_KEY: miniosecret
+    command: server /data
+    ports:
+      - "9000:9000"
+
+volumes:
+  minio-data:
