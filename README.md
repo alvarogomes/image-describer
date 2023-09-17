@@ -2,7 +2,7 @@
 
 ## Descrição
 
-O projeto "Image-Describer" é uma API FastAPI que aceita uma imagem e um prompt como entrada. Utilizando um modelo de Inteligência Artificial, a API gera uma descrição textual da imagem e retorna essa descrição juntamente com as entidades detectadas na imagem.
+O projeto "Image-Describer" é uma API FastAPI que aceita uma imagem e um prompt como entrada. Utilizando um modelo de Inteligência Artificial chamado [https://huggingface.co/ydshieh/kosmos-2-patch14-224](Kosmos-2), a API gera uma descrição textual da imagem e retorna essa descrição juntamente com as entidades detectadas na imagem.
 
 ## Pré-requisitos
 
